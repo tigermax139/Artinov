@@ -1,0 +1,244 @@
+.container {
+    max-width: 1170px;
+}
+header {
+    height: 700px;
+    background-color: grey;
+    color: white;
+}
+row {
+    padding: inherit;
+}
+.navbar-toggle{
+    background-color: gray;
+}
+nav.container-fluid {
+    background-color: rgba(0,0,0, 0.5);
+}
+nav div.row {
+    margin-left: 0 !important;
+}
+.nav a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-family: monospace;
+}
+.logo-name {
+    font-size: 30px;
+}
+.logo-blue {
+    color: deepskyblue;
+}
+nav ul li {
+    display: inline-block;
+}
+section.servises {
+    min-height: 400px;
+    color: white;
+    background-color: #4BCAFF;
+}
+h2{
+    text-transform:uppercase;
+    position: relative;
+}
+h2.h2::before {
+    content: " ";
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+section.portfolio {
+    min-height: 840px;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+section.portfolio .navbar {
+    margin-bottom: 60px;
+}
+section.portfolio h2.h2::before {
+    background-color: black;
+}
+section.portfolio a{
+    color: black;
+}
+.portfolio-gallery-img {
+    margin-bottom: 25px;
+}
+.portfolio-gallery-img img {
+    width: 100%;
+/*
+    min-height: 200px;
+    background-image: url(images/3.jpg);
+    background-size: cover;
+    margin: 1%;
+*/
+}
+
+
+
+
+/*------DEFAULT-------*/
+section.default {
+    min-height: 470px;
+    background-color: grey;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+.default-video {
+    
+    min-height: 300px;
+    position: relative;
+}
+.default-video-bg{
+    background-image: url(images/cat.jpg);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+/*twitter-------------*/
+section.twitter {
+    min-height: 300px;
+    color: white;
+    background-color: #4BCAFF;
+    padding: 70px 0 70px 0;
+    position: relative;
+}
+section.twitter h2 {
+   margin-bottom: 40px;
+    
+}
+.twitter-logo {
+    position: absolute;
+    right: 90px;
+    top: 90px;
+}
+/*--------who-------*/
+section.who {
+    min-height: 500px;
+    color: white;
+    background-color: lightgray;
+    background-image: url(images/3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.who-social ul {
+    margin: 0;
+    padding: 0;
+}
+.who-social ul li {
+    display: inline-block;
+    font-size: 0px;
+}
+.who-social ul li a{
+  background-color: rgba(0,0,0, 0.5);
+    color: white;
+    border-radius: 0px;
+}
+
+
+/*------test-****/
+section.testimonials {
+    min-height: 350px;
+    color: gray;
+    background-color: whitesmoke;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+}
+section.testimonials h2:before {
+    background-color: gray;
+}
+section.testimonials h2{
+    margin-bottom: 40px;
+}
+
+
+
+/*-------contact------*/
+section.contact {
+    min-height: 700px;
+    color: white;
+    background-color: gray;
+    padding-top: 70px; 
+    padding-bottom: 70px;
+}
+textarea {
+    background-color: rgba(0,0,0, 0.2);
+    width: 100%;
+}
+section.contact input[type='submit'] {
+    background-color: #4BCAFF;
+    color: white;
+    border: none;
+    outline: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.contact-content{
+    margin-bottom: 35px;
+}
+
+
+
+/* footer */
+footer {
+    min-height: 70px;
+    background-color: dimgray;
+    color: lightgray;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-size: 14px;
+}
+.copyright {
+    padding: 15px;
+    position: absolute;
+    right: 50px;
+}
+footer ul li{
+    position: relative;
+}
+footer ul li:before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    width: 2px;
+    height: 15px;
+    background-color: white;  
+}
+footer ul li:first-child:before {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

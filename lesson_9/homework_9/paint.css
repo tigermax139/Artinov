@@ -1,0 +1,17 @@
+table.display  td{
+	background: #ddd;
+	width: 10px;
+	height: 10px;
+}
+table.display {
+	margin: auto;
+	border-collapse: collapse;
+}
+label {
+	margin-left: 50px;
+	display: block;
+}
+input {
+	margin-left: 50px;
+	display: block;
+}

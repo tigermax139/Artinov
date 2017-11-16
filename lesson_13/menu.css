@@ -1,0 +1,117 @@
+nav.burger-nav {
+	width: 100%;
+	background-color: #000000;
+	padding: 20px;
+	position: relative;
+}
+nav.burger-nav ul {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+nav.burger-nav ul li {
+	display: inline-block;
+	background-color: #000000;
+	margin-right: 50px;
+}
+nav.burger-nav ul li:last-child {
+	margin-right: 0;
+}
+nav.burger-nav ul li a {
+	display: block;
+	font-size: 18px;
+	padding: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #fff;
+}
+nav.burger-nav input[type="checkbox"] {
+	display: none;
+}
+label {
+	display: none;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	/*border: 1px solid red;*/
+	background-color: #fff;
+	text-align: center;
+	padding: 5px;
+	padding-bottom: 3px;
+}
+.burger {
+	display: block;
+	height: 3px;
+	width: 20px;
+	background-color: #000;
+	border-radius: 2px;
+	position: relative;
+
+}
+.burger:before {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 20px;
+	background-color: #000;
+	border-radius: 2px;
+	position: relative;
+	top: 6px;
+}
+.burger:after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 20px;
+	background-color: #000;
+	border-radius: 2px;
+	position: relative;
+	bottom: -10px;
+}
+@media screen and (max-width: 600px) {
+	nav.burger-nav ul li {
+		display: block;
+		position: relative;
+		/*left: -1000px;*/
+		opacity: 0;
+		transition: 1s all;
+	}
+	nav.burger-nav ul {
+		height: 0px;
+		overflow: hidden;
+		transition: 1s all;
+	}
+	nav.burger-nav ul li:last-child {
+	margin-right: 50px;
+	}
+	label {
+		display: block;
+		top: 5px;
+		right: 20px;
+	}
+	input[type="checkbox"]:checked ~ ul {
+		height: 240px;
+		transition: 1s all;
+	}
+	input[type="checkbox"]:checked ~ ul>li{
+		display: block;
+		/*//left: 0px;*/
+		opacity: 1;
+		transition: 1.5s all;
+	}
+	
+	input[type="checkbox"]:checked ~ label .burger {
+		top: 10px;
+		transform: rotate(45deg);
+		transition: 1.5s all;
+	}
+	input[type="checkbox"]:checked ~ label .burger:after {
+		top: 0px;
+		transform: rotate(90deg);
+		transition: 1.5s all;	
+	}
+	input[type="checkbox"]:checked ~ label .burger:before{
+		display: none;
+	}
+}

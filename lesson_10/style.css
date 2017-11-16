@@ -1,0 +1,77 @@
+#content {
+	float: right;
+	margin-right: 50px;
+}
+#content_2 {
+	float: left;
+	margin-left: 50px;
+}
+.container::after {
+	content: "";
+	 display: table;
+	clear: both;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: 50px;
+}
+.score {
+	margin-left: 50px;
+	margin-top: 15px;
+	font-weight: 600;
+	font-style: italic;
+}
+.score input[type="submit"]{
+	border: 2px solid black;
+	background: white;
+	color: red;
+	font-size: 20px;
+}
+table.display td {
+	background: #ddd;
+	width: 20px;
+	height: 20px;
+}
+table.display tr:nth-child(odd) td:nth-child(2n),
+table.display tr:nth-child(even) td:nth-child(2n+1) {
+    background:#ccc;
+} 
+
+table.display td.active {
+	
+	position: relative;
+}
+table.display td.active::before {
+	content: "";
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	background: red;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin-top: -2px;
+	margin-left: -2px;
+
+	animation: snake 1s infinite alternate;
+}
+table.display td.active.head::before {
+	width: 15px;
+	height: 15px;
+}
+@keyframes snake {
+	from {
+			background: #00537E;
+			width: 10px;
+			height: 10px;
+
+	 }
+	to {
+			background: #3AA17E;
+			/*margin-top: 2px;
+			margin-left: 2px;
+			transform: rotate(-45deg);
+			transform-origin: 0 0;*/
+	 }
+}

@@ -1,0 +1,64 @@
+.header	{
+	text-align: left;
+	margin-right: 15px; 
+    padding: 2px 20px 10px 25px;
+}
+
+.navigation {
+	background-color: lightblue;
+	text-align: center;
+	list-style-type: none;
+	border: 1px solid black;
+	
+	}
+
+.navlist li {
+	display: inline;
+	border: 2px solid lightgrey;
+	padding: 3px;
+}
+
+.sideblock {
+	margin-top: 1em; 
+	background-color: lightblue;
+	float: left;
+	border: 1px solid black;
+	height: 45%; 
+	float: left;
+  	width: 30%;
+  	text-align: center;
+}
+
+.sidelist li {
+	display: block;
+	margin-top: 10px;
+	list-style-type: none;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+
+}
+.main {
+	display: block;
+	margin-top: 1em;
+
+}
+
+header, section, aside, footer {
+  margin: 0 1.5% 24px 1.5%;to;
+}
+
+section {
+  float: right;
+  width: 63%;
+}
+
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+aside {
+    margin-left: 0;
+}
+footer {
+    margin-left: 0;
+}

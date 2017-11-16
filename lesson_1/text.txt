@@ -1,0 +1,1 @@
+"ctrl" + "/"  = comment a sector of your code

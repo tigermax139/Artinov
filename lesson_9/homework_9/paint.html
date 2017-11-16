@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="paint.css">
+	<title>PAINT</title>
+</head>
+<body>
+	<header></header>
+	<div id="content" class="pClass">
+	</div>
+	<div id="controler">
+		<label for="countRow"> How many rows you want?</label>
+		<input type="number" name="countRow" onchange="catchR(this.value)">
+		<label for="countCol"> How many cols you want?</label>
+		<input type="number" name="countCol" onchange="catchC(this.value)">
+		<input type="button" name="generate" value="Make it!" id="generate">
+
+		<input type="color" name="color" onchange="catchColor(this.value)">
+	</div>
+	<footer>
+	</footer>
+<!-- 	<script src="paint.js"></script> -->
+	<script src="paint1.js"></script>
+</body>
+</html>

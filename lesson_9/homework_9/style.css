@@ -1,0 +1,41 @@
+table.display  td{
+	background: #ddd;
+	width: 20px;
+	height: 20px;
+	border: 1px solid white;
+}
+table.display {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+footer {
+	margin-top: 50px;
+}
+table.display  td.active-g {
+	background: green;
+}
+table.display  td.active {
+	background: red;
+}
+table.display  td.default {
+	background: #ddd;
+}
+.delete{
+	display: none;
+}
+#show {
+	display: block;
+	background: #ccc;
+	width: 150px;
+	height: 50px;
+	margin: 10px auto;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+#show input {
+	background: #ccc;
+	border: none;
+	outline: none;
+	display: block;
+	margin: 0 auto;
+}

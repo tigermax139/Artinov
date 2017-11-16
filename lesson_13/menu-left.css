@@ -1,0 +1,41 @@
+/**************LEFT*********************/
+.menu-left {
+;
+	color: white;
+	width: 200px;
+}
+ul {
+	display: block;
+	background-color: #ababab;
+	position: relative;
+	left: -90%;
+	transition: 1s all;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul:hover {
+	left: 0;
+	transition: 1s all;
+	cursor: pointer;
+}
+ul li {
+	display: block;
+	margin: 0;
+}
+ul li a {
+	display: block;
+	font-size: 18px;
+	padding: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #fff;
+	transition: 0.5s all;
+}
+ul li a:hover {
+	padding-left: 20px;
+	text-decoration: underline;
+	color: black;
+	transition: 0.5s all;
+}

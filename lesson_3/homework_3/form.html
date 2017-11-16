@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h2>Please enter your date</h2>
+        <label for="">
+            <input type="text" placeholder="write here" required autocomplete="on"><span class="required">*</span> LOGIN
+        </label>
+        <br>
+        <label for="">
+            <input type="password" placeholder="min 4 symbols" pattern="[A-Za-z0-9_-]{4,8}" title="Пароль должен вмещать цыфры и буквы латинского алфавита. Минимум 4 символа" required ><span class="required">*</span> PASSWORD
+        </label>
+        <br>
+        <label for="">
+            <input type="password" placeholder="repeat password" min="8" required><span class="required">*</span> REPEAT YOUR PASSWORD
+        </label>
+        <br>
+        <label for="">
+            <input type="date"> ENTER YOUR BIRDHDAY
+        </label>
+        <br>
+        <label for="">
+            <input type="email" placeholder="write your mail">E-mail
+        </label>
+        <br>
+        <label for="">
+            <input type="color"> YOUR FAVORITE COLOR
+        </label>
+        <br>
+        <label for="sex">ENTER SEX
+        <input type="radio" name="sex">Men
+        <input type="radio" name="sex">Women
+        </label>
+        <br>
+        <input type="submit" value="Enter">
+        <br>
+        <input type="button" value="Reset">
+        
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contain {
+    position: relative;
+}
+.target {
+    position: absolute;
+    display: block;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.blue {
+    background: #0094DD;
+}
+.red {
+    background: #DB251A;
+}
+.yellow {
+    background: #FFF701;
+}
+.black{
+    background: #1F1A20;
+    color: white;
+}
+div.target span {
+    position: absolute;
+}
+.top {
+    top: 0;
+    left: 48%;
+}
+.left {
+    left: 2%;
+    top: 48%;
+}
+.right {
+    right: 2%;
+    top: 48%;
+}
+.bottom {
+    bottom: 0;
+    left: 48%;
+}
+/* meat*/
+.first {
+    width: 240px;
+    height: 240px;
+}
+.twise {
+    width: 200px;
+    height: 200px;
+    left: 20px;
+    top: 20px;
+}
+.third {
+    width: 160px;
+    height: 160px;
+    top: 38px;
+    left: 38px;
+}
+.forth {
+    width: 120px;
+    height: 120px;
+    top: 58px;
+    left: 58px;
+}
+.five {
+    width: 80px;
+    height: 80px;
+    top: 76px;
+    left: 76px;
+}
+.six {
+    width: 40px;
+    height: 40px;
+    top: 98px;
+    left: 98px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/*pontu*/
+
+.damage img {
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    width: 200px;
+    height: 50px;
+}
+.damage img:hover {
+    cursor: move;
+}
+.damage img:active {
+    left: 120px;
+    top: 315px;
+    transform:  rotate(1080deg);
+    transition: 3s;
+}
+/*
+no) i dont wont it)
+@keyframes drot {
+    0%{}
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
